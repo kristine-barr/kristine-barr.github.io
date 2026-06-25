@@ -1,0 +1,196 @@
+
+/* =========================
+    PAGE STYLES
++++========================= */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E2D9BC;
+}
+
+/* =========================
+    ROUNDED CORNERS
++++========================= */
+
+/* Applies rounded corners to all major page sections */
+header, 
+aside,
+main,
+nav a,
+img {
+    border-radius: 15px;
+}
+
+
+/* =========================
+    HEADER SECTION
++++========================= */
+header {
+    background-color: #E2D9BC;
+    color: #B20E19;
+    border: 2px solid #683629;
+    text-align: center;
+
+    width: 70%; 
+    margin: 20px auto 0 auto;
+}
+
+/* Main Page Title - Kristine Barruzo  */
+header h1 {
+    font-family: 'VT323', monospace;
+    font-size: 100px;
+    margin-bottom: 10px;
+
+}
+
+/* Subtitle below the title - Sacramento, CA */
+header p {
+    font-family: 'Orbitron', monospace;
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+/* =========================
+    NAVIGATION MENU
++++========================= */
+nav {
+    font-family: 'Montserrat', monospace;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Navigation Buttons 
+    - Home
+    - About 
+    - Contact
+*/
+nav a {
+    color: #B20E19;
+    display: inline-block;
+    border: 2px solid #683629;
+    padding: 8px 15px; 
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Visited Navigation Links*/
+nav a:visited {
+    color: #80ABD7;
+}
+
+/* Navigation link hover effect */
+nav a:hover {
+    color: #683629;
+}
+
+/* =========================
+    MAIN CONTENT LAYOUT
++++========================= */
+
+/* Holds the sidebar and main content sections */
+.container {
+    font-family: 'Montserrat', sans-serif;
+    display: flex; 
+    gap: 15px;
+    width: 70%;
+    margin: 0 auto 20px auto; 
+    border: none;
+}
+
+/* =========================
+    SIDEBAR SECTION
++++========================= */
+
+/* Left Side Of the Website*/
+aside {
+    width: 50%;
+    padding: 15px;  
+    border: 2px solid #683629;
+    background-color: #E2D9BC;
+    color:#80ABD7;
+    text-align: center; 
+}
+
+/* Figure Holding Profile Image and Caption */
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+/* Caption Below Profile Image  */
+figcaption {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #B20E19;
+}
+
+/* Profile Picture */
+img {
+    max-width: 100%;
+    height: auto; 
+
+    /* Make image behave like a block element */
+    display: block; 
+
+    /* Centers the image horizontally */
+    margin: 0 auto;
+    
+}
+
+/* =========================
+    MAIN CONTENT SECTION 
++++========================= */
+
+/* Right Side of the Website */
+main {
+    width: 50%;
+    padding: 15px;
+    border: 2px solid #683629;
+    background-color: #E2D9BC;
+    color:#80ABD7
+}
+
+/* TOP: Main Page - Welcome! */
+main h2 {
+    font-family: Fascinate;
+    font-size: 65px;
+    width: 60%;
+    margin-left: 20px;
+}
+
+/* MIDDLE: Main Page - Blurbs */
+main p {
+    color: #683629;
+    text-align: center;
+}
+
+/* BOTTOM: CSUMB Logo */
+.CSUMB-logo {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-top: 40px auto;
+}
+
+/* =========================
+    FOOTER SECTION 
++++========================= */
+footer {
+    width: 70%;
+    margin: 20px auto; 
+    padding: 10px;
+
+    text-align: center;
+    color: #683629;
+    border: 2px solid #683629;
+    border-radius: 15px;
+}
+
+
+
