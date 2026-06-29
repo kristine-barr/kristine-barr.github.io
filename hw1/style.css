@@ -5,14 +5,33 @@ nav{
     margin: 20px 0;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    color:#601d2d;
-    text-align: left;
+    background-color: #99992c;
 }
 
+/* Navigation Buttons */
 nav a {
     border: 2px solid #97b2d1;
     display: inline-block;
-    padding: 5px 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* Current Page */
+nav a:active {
+    background-color: #97b2d1;
+    color:#99992c;
+    text-decoration: solid;
+}
+
+/* Visited Navigation Link */
+nav a:visited {
+    background-color: #97b2d1;
+    color:#EDD5AB;
+}
+
+/* Navigation link hover effect */
+nav a:hover {
+    color:#EDD5AB;
 }
 
 
@@ -25,33 +44,33 @@ nav a {
 
 body{
     background-color: #99992c;
-    font-family: 'Poppins', sans-serif;
     color: #601d2d;
+    font-family: 'Poppins', sans-serif;
     width: 75%;
     margin: 0 auto;
 }
 
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
 /* ================================================
-    WHAT IS WEB DEVELOPMENT?
+    INTRO SECTION 
 ==================================================*/
 .intro {
     border: 5px solid #97b2d1;
     margin: 20px auto 0 auto;
+    padding: 50px;
     display:flex;
-    align-items: center; 
+    align-items: left; 
     justify-content: space-between;
-    padding: 50px; 
-    
+    align-items: center; 
 }
 
 .intro-text {
-    border: 5px solid #97b2d1;
     padding: 10px;
-}
-
-.intro-image{
-    width: 500px;
-    height: auto;
 }
 
 .intro-title {
@@ -60,58 +79,53 @@ body{
     text-align: center;
 }
 
-p {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.6;
+.intro-image {
+    width: 500px;
+    height: auto;
+}
+
+.html-image {
+    width: 450px;
+    height: auto;
 }
 
 /* ================================================
-    WHY IS WEB DEVELOPMENT IMPORTANT?  
+    IMPORTANCE 
 ==================================================*/
 .importance {
     border: 5px solid #97b2d1;
     margin: 20px auto 0 auto;
-    align-items: center; 
     padding: 50px;
 }
 
-.importance-title {
-    font-family: 'Abril Fatface', serif;
-    font-size: 40px;
-    text-align: left;
-}
-
 /* ================================================
-    TYPES OF WEBSITES  
+    WEBSITE TYPES  
 ==================================================*/
 .website-types {
     border: 5px solid #97b2d1;
     margin: 20px auto 0 auto;
-    align-items: center; 
     padding: 50px;
-}
-
-.website-grid {
-    display:flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-.website-card {
-    border: 3px solid #97b2d1;
-    border-radius: 10px;
-    padding: 20px;
-    width: 250px;
-    text-align: center;
-    background-color: #601d2d;
 }
 
 .types-title {
     font-family: 'Abril Fatface', serif;
     font-size: 40px;
-    text-align: left;
+}
+
+.website-grid {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.website-card {
+    width: 250px;
+    padding: 20px;
+    border: 3px solid #97b2d1;
+    border-radius: 10px;
+    background-color: #601d2d;
+    text-align: center;
 }
 
 .website-image {
@@ -122,13 +136,154 @@ p {
 .website-card h3 {
     font-size: 28px;
     color: #97b2d1;
-    margin-bottom: 10px;
 }
 
 .website-card p {
     font-size: 15px;
-    font-weight: 400px;
     color: #EDD5AB;
+}
+
+/* ================================================
+    HTML TAGS 
+==================================================*/
+.html-image {
+    width: 450px;
+    height: auto;
+}
+
+.html-tags {
+    border: 5px solid #97b2d1;
+    margin: 20px auto;
+    padding: 50px;
+}
+
+.tags-title {
+    font-family: 'Abril Fatface', serif;
+    font-size: 45px;
+}
+
+/* Grid */
+.tags-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+/* Cards */
+.tag-card {
+    width: 250px;
+    padding: 20px; 
+    border: 3px solid #97b2d1;
+    text-align: center;
+    background-color: #601d2d;
+    color: #EDD5AB;
+    text-align: center;
+}
+
+/* Tag */
+.tag-code {
+    font-family: monospace;
+    font-size: 32px;
+    color:#97b2d1;
+}
+
+/* ================================================
+    BASIC HTML STRUCTURE  
+==================================================*/
+.html-structure {
+    border: 5px solid #97b2d1;
+    margin: 20px auto 0 auto; 
+    padding: 50px;
+}
+
+.structure-title {
+    font-family: 'Abril Fatface', serif;
+    font-size: 40px;
+}
+
+.structure-grid {
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.structure-text {
+    flex:1; 
+}
+
+.structure-grid .code-example {
+    flex:1;
+    margin: 0;
+}
+
+/* ================================================
+    SHARED CODE BOX  
+==================================================*/
+.code-example {
+    border: 3px solid #97b2d1;
+    background-color: #601d2d;
+    color:#EDD5AB;
+    padding: 25px;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-x: hidden;
+}
+
+/* ================================================
+    EXAMPLE WEBPAGE  
+==================================================*/
+.webpage-example {
+    border: 5px solid #97b2d1;
+    margin: 20px auto 0 auto;
+    padding: 40px;
+    width: 100%;
+}
+
+.example-title {
+    font-family: 'Abril Fatface', serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.example-text, 
+.example-note {
+    margin-bottom: 25px;
+}
+
+.example-grid {
+    display:flex;
+    gap:40px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.example-grid .preview {
+    flex: 0 0 auto; 
+}
+
+.example-grid .code-example {
+    flex:1;
+}
+
+.preview,
+.example-grid .code-example {
+    width: 48%;
+}
+
+/* Left Side */
+.preview {
+    text-align: center;
+}
+
+.webpage-image {
+    width: 100%;
+    height:auto;
+    display:block;
 }
 
 /* ================================================
@@ -143,11 +298,9 @@ p {
 .sources h2 {
     font-family: 'Abril Fatface', serif;
     font-size: 40px;
-    margin-bottom: 20px;
 }
 
 .sources ul {
-    list-style-type: disc;
     padding-left: 25px;
 }
 
