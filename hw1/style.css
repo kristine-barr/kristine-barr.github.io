@@ -146,11 +146,6 @@ p {
 /* ================================================
     HTML TAGS 
 ==================================================*/
-.html-image {
-    width: 450px;
-    height: auto;
-}
-
 .html-tags {
     border: 5px solid #97b2d1;
     margin: 20px auto;
@@ -235,55 +230,51 @@ p {
 }
 
 /* ================================================
-    EXAMPLE WEBPAGE  
+    CSS Properties  
 ==================================================*/
-.webpage-example {
+.css-properties {
     border: 5px solid #97b2d1;
-    margin: 20px auto 0 auto;
-    padding: 40px;
-    width: 100%;
+    margin: 20px auto;
+    padding: 50px;
 }
 
-.example-title {
+.properties-title {
     font-family: 'Abril Fatface', serif;
     font-size: 40px;
-    margin-bottom: 30px;
 }
 
-.example-text, 
-.example-note {
-    margin-bottom: 25px;
-}
-
-.example-grid {
+.properties-grid {
     display:flex;
-    gap:40px;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:25px;
 }
 
-.example-grid .preview {
-    flex: 0 0 auto; 
+.property-card {
+    width: 250px;
+    padding: 20px;
+    border: 3px solid #97b2d1;
+    background-color: #601d2d;
+    color:#EDD5AB;
+    text-align: center; 
 }
 
-.example-grid .code-example {
-    flex:1;
+.property-name {
+    font-family: monospace;
+    font-size: 22px; 
+    color:#97b2d1;
 }
 
-.preview,
-.example-grid .code-example {
-    width: 48%;
+.property-card p {
+    color:#EDD5AB;
+    font-size: 16px;
 }
 
-/* Left Side */
-.preview {
-    text-align: center;
-}
-
-.webpage-image {
-    width: 100%;
-    height:auto;
-    display:block;
+.property-card .property-example {
+    margin-top: 25px;
+    font-family: monospace;
+    color:#c7d9ee;
+    font-size: 17px;
 }
 
 /* ================================================
