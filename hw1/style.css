@@ -2,35 +2,30 @@
     NAVIGATION  
 ==================================================*/
 nav{
-    margin: 25px 0 40px; 
+    margin: 30px 0 50px; 
 }
 
 /* Navigation Buttons */
 nav a {
     display: inline-block;
+
     padding: 10px 18px; 
     margin-right: 10px;
 
-    background-color: #99992c;
+    background-color: #97b2d1;
     border: 2px solid #97b2d1;
     border-radius: 6px;
 
-    color: #EDD5AB;
+    color: #601d2d;
     text-decoration: none;
 
     transition: 0.3s;
 }
 
 /* Current Page */
-nav a:active {
+nav a.active {
     background-color: #601d2d;
     color:#EDD5AB;
-}
-
-/* Visited Navigation Link */
-nav a:visited {
-    background-color: #97b2d1;
-    color:#601d2d;
 }
 
 /* Navigation link hover effect */
