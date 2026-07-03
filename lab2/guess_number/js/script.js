@@ -95,7 +95,7 @@ function checkGuess() {
 
         // Check if the player has used all attempts 
         if(attempts == 7) {
-            feedback.textContent = "Sorry, you lost!";
+            feedback.textContent = "Sorry, you lost! The number was " + randomNumber;
             feedback.style.color = "#FD5A46";
             feedback.style.fontWeight = "bold";
             
