@@ -1,0 +1,115 @@
+
+/* ---------------------------------------- */
+/* Page Background                          */
+/* ---------------------------------------- */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../img/background-image.png");
+    background-repeat: no-repeat;
+    background-position: center top; 
+    background-size: auto 100vh;
+    min-height: 100vh;
+}
+
+/* ---------------------------------------- */
+/* Main Container                           */
+/* ---------------------------------------- */
+
+#container {
+    position: absolute;
+    top: 170px; 
+    right: 140px; 
+
+    width: 760px; 
+    height: 600px; 
+
+    padding: 45px 80px 120px 80px;
+    box-sizing: border-box; 
+
+    text-align: center;
+}
+
+/* ---------------------------------------- */
+/* Headings                                 */
+/* ---------------------------------------- */
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Barriecito', cursive;
+    font-size: 48px;
+    color: #058CD7;
+    margin: 0 0 20px 0;
+}
+
+h2 {
+    margin: 0 0 15px 0; 
+    font-family: 'Concert One', sans-serif;
+    font-size: 24px;  
+    color: #1E2540;
+}
+
+h3 {
+    font-family: 'DynaPuff';
+    color:#1E2540;
+}
+
+/* ---------------------------------------- */
+/* Main Game Area                           */
+/* ---------------------------------------- */
+
+#main {
+    font-size: 22px; 
+    line-height: 1.4;
+}
+
+/* ---------------------------------------- */
+/* Input Box                                */
+/* ---------------------------------------- */
+
+input {
+    padding: 8px; 
+    font-size: 18px; 
+
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+/* ---------------------------------------- */
+/* Buttons                                  */
+/* ---------------------------------------- */
+
+button {
+    padding: 10px 8px; 
+
+    font-family: 'Concert One', sans-serif; 
+    font-size: 18px;
+
+    border: 3px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#attemptsLeft {
+    font-family: 'Lilita One', sans-serif;
+    color: #552CB7;
+}
+
+#guesses {
+    font-family: 'Lilita One', sans-serif;
+    color: #058CD7;
+}
+
+#score {
+    font-family: 'Lilita One', sans-serif;
+    color: #FD5A46;
+}
+
+#guessBtn, 
+#resetBtn { 
+    margin-left: 8px;
+}
