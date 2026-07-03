@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Guess a Number </title>
+    <meta charset="utf-8">
+
+    <!-- Links the HTML page to the external CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google font: Barriecito  -->
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+
+    <!-- Google font: Concert One   -->
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+
+    <!-- Google font: Lilita One   -->
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+    <!-- Google font: DynaPuff   -->
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Let's Play!</h1>
+            <br>
+            <h2>I'm thinking of a number between 1 and 99.</h2>
+            <h3>Can you find it in 7 attempts?</h3>
+        </header>
+
+        <div id="main">
+            Enter a number:
+            <input type="text" id="playerGuess" size="5">
+            <button id="guessBtn"> Guess </button>
+            <button id="resetBtn"> Reset </button>
+
+            <!-- Feedback  -->
+            <div id="feedback"></div>
+
+            <!-- Attempts  -->
+            <div id="attemptsLeft"></div>
+
+            <!-- Previous Guesses -->
+            <div>
+                Previous Guesses:
+                <span id="guesses"></span>
+            </div>
+
+            <!-- Score -->
+            <div id="score"></div>
+
+        </div>
+    </div>
+
+    <script src="js/script.js">
+    </script>
+
+</body>
+
+</html>
