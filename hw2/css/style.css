@@ -1,0 +1,164 @@
+body {
+    background-image: url("../img/body.png");
+    background-color: #fff9f2;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+/* HERO BANNER */
+.hero {
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.hero-banner {
+    width: 100%;
+    height: 250;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+/* TITLE */
+.hero-text h1 {
+    font-family: "IM Fell English", serif;
+    font-size: 70px;
+    color: #134e5e;
+    background: none;
+    border-bottom: none;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+/* SUBTITLE */
+.hero-text p {
+    font-family: "IM Fell English", serif;
+    font-size: 28px;
+    color: #134e5e;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+/* QUIZ CARD */
+.quiz-card {
+    background-color: #fff9f2;
+    border-radius: 25px;
+    padding: 40px;
+    max-width: 1000px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+/* QUESTIONS */
+h3 {
+    margin-top: 30px;
+    color: #12355b;
+}
+
+input[type="text"],
+select {
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+div[id$="Feedback"] {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+span img {
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#totalScore {
+    font-weight: bold;
+    margin-top: 20px;
+    color: #9e3d12;
+}
+
+#congratsMsg {
+    color: #45672b;
+    font-weight: bold;
+}
+
+#totalAttempts {
+    color: #6c757d;
+}
+
+.checkbox-group,
+.radio-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.checkbox-group label,
+.radio-container label {
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.checkbox-group input[type="checkbox"],
+.radio-container input[type="radio"] {
+    transform: scale(1.1);
+    margin-right: 8px;
+}
+
+.submit-section {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.quiz-btn {
+    background-color: #6f8fac;
+    color: white;
+    font-family: "Concert One", cursive;
+    font-size: 24px;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.quiz-btn:hover {
+    background-color: #6f8fac;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    border-top: 2px solid #97b2d1;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0; 
+    font-size: 15px;
+    color: #12355b;
+}
