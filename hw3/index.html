@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Name Explorer</title>
+
+    <!-- Links the HTML page to the external CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font: Changa One -->
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
+
+    <!-- Google Font: DM Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+    <!-- Google Font: Mansalva -->
+    <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <img class="header-image" src="img/header.png" alt="Header image">
+        <h1>Name Explorer</h1>
+        <p class="description">Enter a first name to discover its gender and where it is commonly used.</p>
+        <form id="nameForm">
+            <label for="name">Enter a first name:</label>
+            <input type="text" id="name" name="name" placeholder="Example: Emily">
+            <br>
+
+            <span id="nameError"></span>
+            <br><br>
+
+            <input type="checkbox" id="exact">
+            <label for="exact">Exact spelling only</label>
+
+            <br><br>
+
+            <button type="submit">Search</button>
+
+        </form>
+
+        <div id="results"></div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>
+            Homework 3 - Fetch and Web APIs
+        </p>
+
+        <p>
+            &copy; 2026 Kristine Barruzo | CST 336 - Internet Programming
+        </p>
+    </footer>
+
+    <!--Link the JavaScript to the HTML file -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
